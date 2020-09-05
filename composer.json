@@ -1,5 +1,5 @@
 {
-    "name": "phpunit/php-token-stream",
+    "name": "xtreed/php-token-stream",
     "description": "Wrapper around PHP's tokenizer extension.",
     "type": "library",
     "keywords": ["tokenizer"],
@@ -35,5 +35,8 @@
         "branch-alias": {
             "dev-master": "3.1-dev"
         }
+    },
+    "replace": {
+        "phpunit/php-token-stream": "^3.0"
     }
 }
